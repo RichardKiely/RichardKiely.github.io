@@ -16,15 +16,7 @@
       </h1>
     </header>
     <main>
-      <h2>Functional Tests Example</h2>
-      <div class="pane">
-        <form action="/travellers" method="POST" id="f1">
-          <label for="i1">surname: </label>
-          <input id="i1" type="text" name="surname" placeholder="try with 'Polo'...">
-          <button type="submit">submit</button>
-        </form>
-        <div id="tn"></div>
-      </div>
+      <h2>Basic Assertion Tests Example</h2>
       <div class="pane">
       // #1
         <br>
