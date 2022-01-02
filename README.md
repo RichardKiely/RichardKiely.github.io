@@ -27,18 +27,11 @@
         <div id="tn"></div>
       </div>
       <div class="pane">
-        <p class="specs">
-          Input form HTML:<br>
-          ----------------<br>
-          &lt;input type="text" name="surname"&gt;<br>
-          &lt;button type="submit"&gt;submit&lt;/button&gt;<br>
-          <br>
-          Results div HTML (after Ajax):<br>
-          ------------------------------<br>
-          &lt;p&gt;first name:&lt;span id="name"&gt;[name]&lt;/span&gt;&lt;/p&gt;<br>
-          &lt;p&gt;last name:&lt;span id="surname"&gt;[surname]&lt;/span&gt;&lt;/p&gt;<br>
-          &lt;p&gt;dates:&lt;span id="dates"&gt;[birth - death]&lt;/span&gt;&lt;/p&gt;<br>
-        </p>
+      // #1
+    test('#isNull, #isNotNull', function () {
+      assert.isNull(null, 'This is an optional error description - e.g. null is null');
+      assert.isNotNull(1, '1 is not null');
+    });
       </div>
     </main>
     <script src='/client.js'></script>
