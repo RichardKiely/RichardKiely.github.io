@@ -18,7 +18,6 @@
     <main>
       <h2>Functional Tests Example</h2>
       <div class="pane">
-        <h4>Famous Italian Explorers</h4>
         <form action="/travellers" method="POST" id="f1">
           <label for="i1">surname: </label>
           <input id="i1" type="text" name="surname" placeholder="try with 'Polo'...">
@@ -28,8 +27,9 @@
       </div>
       <div class="pane">
       // #1
-    test('#isNull, #isNotNull', function () {
-      assert.isNull(null, 'This is an optional error description - e.g. null is null');
+        <br>
+    test('#isNull, #isNotNull', function () { <br>
+      assert.isNull(null, 'This is an optional error description - e.g. null is null');<br>
       assert.isNotNull(1, '1 is not null');
     });
       </div>
